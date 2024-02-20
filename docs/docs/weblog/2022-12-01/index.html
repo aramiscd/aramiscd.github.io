@@ -8,7 +8,8 @@ Nix Expression Language # Ich erkunde die Nix Expression Language. Mein Startpun
 Auswertung # Die auszuwertenden Ausdrücke schreibe ich in eine Datei scratch.nix. Die Auswertung erfolgt so:
 $ nix-instantiate --eval scratch.nix Für mehr Komfort kann man inotifywait benutzen um die Auswertung jedesmal anzustoßen wenn die Datei scratch.nix gespeichert wird:
 $ while true inotifywait -q -e modify scratch.">
-<meta name="theme-color" content="#FFFFFF">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Nix Expression Language" />
 <meta property="og:description" content="2022-12-01
 Nix Expression Language # Ich erkunde die Nix Expression Language. Mein Startpunkt ist https://learnxinyminutes.com/docs/nix/. Sehr hilfreich ist auch die Dokumentation, welche über die Nix Repl verfügbar ist.
@@ -19,9 +20,11 @@ $ while true inotifywait -q -e modify scratch." />
 <meta property="og:url" content="https://nojs.de/docs/weblog/2022-12-01/" /><meta property="article:section" content="docs" />
 
 
+
 <title>Nix Expression Language | nojs.de</title>
 <link rel="manifest" href="/manifest.json">
-<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="https://nojs.de/docs/weblog/2022-12-01/">
 <link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
   <script defer src="/en.search.min.239764b7d7e10008ad8848a0950742a5925493f78ca025a0ec10308509c0db0a.js" integrity="sha256-I5dkt9fhAAitiEiglQdCpZJUk/eMoCWg7BAwhQnA2wo=" crossorigin="anonymous"></script>
@@ -346,7 +349,7 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><p>2022-12-01</p>
+  <article class="markdown book-article"><p>2022-12-01</p>
 <h1 id="nix-expression-language">
   Nix Expression Language
   <a class="anchor" href="#nix-expression-language">#</a>
